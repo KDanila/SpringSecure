@@ -1,4 +1,4 @@
-package ru.kdv.config;
+package main.java.ru.kdv.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

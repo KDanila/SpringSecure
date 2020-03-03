@@ -1,4 +1,4 @@
-package ru.kdv.controller;
+package main.java.ru.kdv.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

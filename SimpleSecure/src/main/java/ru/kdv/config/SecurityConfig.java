@@ -1,4 +1,4 @@
-package ru.kdv.config;
+package main.java.ru.kdv.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -6,7 +6,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.User;
 
-import static ru.kdv.constants.SecurityConfigConstants.*;
+import static main.java.ru.kdv.constants.SecurityConfigConstants.*;
 
 @Configuration
 @EnableWebSecurity

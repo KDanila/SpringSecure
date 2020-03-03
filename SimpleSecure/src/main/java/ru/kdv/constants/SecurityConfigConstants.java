@@ -1,4 +1,4 @@
-package ru.kdv.constants;
+package main.java.ru.kdv.constants;
 
 
 import lombok.AccessLevel;
