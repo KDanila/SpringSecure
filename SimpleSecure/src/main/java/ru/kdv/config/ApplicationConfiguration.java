@@ -1,3 +1,4 @@
+/*
 package ru.kdv.config;
 
 import org.springframework.context.annotation.Bean;
@@ -22,3 +23,4 @@ public class ApplicationConfiguration  {
         return viewResolver;
     }
 }
+*/

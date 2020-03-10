@@ -1,3 +1,4 @@
+/*
 package ru.kdv.constants;
 
 
@@ -10,3 +11,4 @@ public class SecurityConfigConstants {
     public static final String MANAGER = "MANAGER";
     public static final String ADMIN = "ADMIN";
 }
+*/

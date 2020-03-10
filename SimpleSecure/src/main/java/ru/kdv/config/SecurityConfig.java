@@ -1,3 +1,4 @@
+/*
 package ru.kdv.config;
 
 import org.springframework.context.annotation.Configuration;
@@ -21,3 +22,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .withUser(users.username("Susan").password("123").roles(ADMIN));
     }
 }
+*/

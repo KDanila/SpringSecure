@@ -1,3 +1,4 @@
+/*
 package ru.kdv.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
@@ -18,3 +19,4 @@ public class DispatcherServletInitializer extends AbstractAnnotationConfigDispat
         return new String[]{"/"};
     }
 }
+*/

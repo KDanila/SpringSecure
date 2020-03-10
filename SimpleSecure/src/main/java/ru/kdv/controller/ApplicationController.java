@@ -1,3 +1,4 @@
+/*
 package ru.kdv.controller;
 
 import org.springframework.stereotype.Controller;
@@ -11,3 +12,4 @@ public class ApplicationController {
         return "home";
     }
 }
+*/
