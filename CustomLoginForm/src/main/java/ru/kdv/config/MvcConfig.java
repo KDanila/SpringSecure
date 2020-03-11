@@ -13,13 +13,13 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @ComponentScan("ru.kdv")
 public class MvcConfig implements WebMvcConfigurer {
 
-    @Bean
+    /*@Bean
     public ViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
         viewResolver.setPrefix("/WEB-INF/view/");
         viewResolver.setSuffix(".jsp");
 
         return viewResolver;
-    }
+    }*/
 
 }
