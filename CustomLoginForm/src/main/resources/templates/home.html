@@ -1,8 +1,16 @@
-<html>
+<html xmlns:th="https://www.thymeleaf.org">
 <head>
     <title>Title</title>
 </head>
 <body>
-<h1>WELCOME TO THE JUNGLE</h1>
+<h1>WELCOME TO HOME PAGE</h1>
+
+Authenticated user roles:
+<div sec:authentication="principal.authorities"></div>
+
+<form th:action="@{/logout}" method="POST">
+    <input type="submit" value="Logout"/>
+</form>
+
 </body>
 </html>
