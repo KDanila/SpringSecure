@@ -10,4 +10,14 @@ public class ApplicationController {
     public String showHome() {
         return "home";
     }
+
+    @GetMapping("/leaders")
+    public String showManagerPage(){
+        return "leaders";
+    }
+
+    @GetMapping("/systems")
+    public String showAdminPage(){
+        return "systems";
+    }
 }
