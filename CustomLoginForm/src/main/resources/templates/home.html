@@ -1,4 +1,4 @@
-<html lang="java" xmlns:th="https://www.thymeleaf.org">
+<html lang="java" xmlns:th="https://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
 <head>
     <title>Title</title>
 </head>
@@ -16,10 +16,11 @@
 
 </div>
 
-<p>
+<p sec:authorize="hasRole('MANAGER')">
     <a th:href="@{/leaders}">Link for manager(only)</a>
 </p>
-<p>
+
+<p sec:authorize="hasRole('ADMIN')">
     <a th:href="@{/systems}">Link for ADMIN(only)</a>
 </p>
 
