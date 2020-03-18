@@ -7,7 +7,7 @@ spring:
     enabled: true
 jdbc:
   driver: com.mysql.cj.jdbc.Driver
-  url: jdbc:mysql://localhost:3306/spring_security_demo_plaintext?useSSL=false&useUnicode=true&serverTimezone=UTC
+  url: jdbc:mysql://localhost:3306/spring_security_demo_bcrypt?useSSL=false&useUnicode=true&serverTimezone=UTC
   user: root
   password: 6799963
 
